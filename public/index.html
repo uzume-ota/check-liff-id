@@ -20,6 +20,7 @@
                 </div>
                 <div class="buttonRow">
                     <button id="getAccessToken">Get Access Token</button>
+                    <button id="getIdToken">Get Id Token</button>
                     <button id="getProfileButton">Get Profile</button>
                 </div>
                 <div class="buttonRow">
@@ -35,6 +36,17 @@
                     <tr>
                         <th>accessToken</th>
                         <td id="accessTokenField"></td>
+                    </tr>
+                </table>
+            </div>
+            <!-- ID TOKEN DATA -->
+            <div id="idTokenData" class="hidden textLeft">
+                <h2>Access Token</h2>
+                <a href="#" onclick="toggleIdToken()">Close Id Token</a>
+                <table>
+                    <tr>
+                        <th>idToken</th>
+                        <td id="idTokenField"></td>
                     </tr>
                 </table>
             </div>
