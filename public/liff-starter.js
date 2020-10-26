@@ -242,6 +242,13 @@ function toggleAccessToken() {
 }
 
 /**
+* Toggle id token data field
+*/
+function toggleIdToken() {
+    toggleElement('idTokenData');
+}
+
+/**
 * Toggle profile info field
 */
 function toggleProfileData() {
