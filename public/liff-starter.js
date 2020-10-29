@@ -170,6 +170,7 @@ function registerButtonHandlers() {
             alert('To get an id token, you need to be logged in. Please tap the "login" button below and try again.');
         } else {
             const idToken = liff.getIDToken();
+            console.log(idToken);
             document.getElementById('idTokenField').textContent = idToken;
             toggleIdToken();
         }
